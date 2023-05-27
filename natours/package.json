@@ -4,7 +4,7 @@
   "description": "Landing page for natours",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass styles./main.sass styles./style.css"
+    "dev": "node-sass styles/main.scss styles/style.css"
   },
   "author": "malik-codes",
   "license": "ISC",
