@@ -64,6 +64,10 @@
 /// USER NAVIGATION
 .user-nav {
   background-color: greenyellow;
+
+  display: flex;
+  align-items: center;
+
   &__icon-box {
   }
 
