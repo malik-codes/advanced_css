@@ -147,7 +147,7 @@
   }
 
   &__item:active::before {
-    border-color: var(--color-primary-light);
+    background-color: var(--color-primary-light);
   }
 
   &__link:link,
