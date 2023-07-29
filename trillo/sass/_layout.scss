@@ -35,8 +35,6 @@
 .hotel-view {
   background-color: #fff;
 
-  height: 80rem;
-
   flex: 1;
 }
 
@@ -48,8 +46,9 @@
 }
 
 .description {
+  font-size: 1.4rem;
   background-color: #fff;
-  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+  box-shadow: var(--shadow-light);
   padding: 3rem;
   flex: 0 0 60%;
   margin-right: 4.5rem;
