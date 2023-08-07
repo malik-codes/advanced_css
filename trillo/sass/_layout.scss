@@ -58,6 +58,11 @@
   @media only screen and (max-width: $bp-medium) {
     padding: 3rem;
   }
+
+  @media only screen and (max-width: $bp-small) {
+ 
+flex-direction: column;
+
 }
 
 .description {
@@ -80,4 +85,5 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
 }
