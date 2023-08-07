@@ -23,6 +23,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media only screen and (max-width: $bp-smallest) {
+  }
+
 }
 
 .content {
@@ -77,6 +81,11 @@ flex-direction: column;
 
     margin-right: 3rem;
   }
+  @media only screen and (max-width: $bp-small) {
+ 
+    margin-right: 0;
+    margin-bottom: 3rem;
+    }
 }
 
 .user-reviews {
