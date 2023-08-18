@@ -25,6 +25,7 @@
 }
 .item--2 {
   background-color: yellowgreen;
+  grid-row: 1/3;
 }
 .item--3 {
   background-color: blueviolet;
