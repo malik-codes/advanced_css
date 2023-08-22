@@ -15,6 +15,10 @@ body {
   font-weight: 300;
   line-height: 1.6; }
 
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vh repeat(3, min-content); }
+
 .sidebar {
   background-color: #c69963; }
 
@@ -34,4 +38,10 @@ body {
   background-color: #f9f7f6; }
 
 .homes {
+  background-color: #101d2c; }
+
+.gallery {
+  background-color: #54483a; }
+
+.footer {
   background-color: #101d2c; }
