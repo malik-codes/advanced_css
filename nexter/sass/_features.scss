@@ -10,6 +10,9 @@
 
 .feature {
   &__icon {
+    fill: $color-primary;
+    width: 4.5rem;
+    height: 4.5rem;
   }
 
   &__text {
