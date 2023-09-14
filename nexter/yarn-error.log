@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\malik\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\malik\bin;C:\Program Files (x86)\Git\mingw32\bin;C:\Program Files (x86)\Git\usr\local\bin;C:\Program Files (x86)\Git\usr\bin;C:\Program Files (x86)\Git\usr\bin;C:\Program Files (x86)\Git\mingw32\bin;C:\Program Files (x86)\Git\usr\bin;C:\Users\malik\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Git\cmd;C:\Program Files\nodejs;C:\Users\malik\AppData\Local\Microsoft\WindowsApps;C:\Users\malik\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\malik\AppData\Roaming\npm;C:\Program Files (x86)\Git\usr\bin\vendor_perl;C:\Program Files (x86)\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+npm manifest: 
+  {
+    "name": "Nexter",
+    "version": "1.0.0",
+    "description": "Nexter webpage",
+    "main": "index.js",
+    "scripts": {
+      "watch:sass": "node-sass sass/main.scss css/style.css -w",
+      "devserver": "live-server",
+      "start": "npm-run-all --parallel devserver watch:sass",
+      "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+      "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.comp.css -o css/style.prefix.css",
+      "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
+      "build:css": "npm-run-all compile:sass prefix:css compress:css"
+    },
+    "author": "Jonas",
+    "license": "ISC",
+    "devDependencies": {
+      "autoprefixer": "^7.1.4",
+      "concat": "^1.0.3",
+      "node-sass": "^4.5.3",
+      "npm-run-all": "^4.1.1",
+      "postcss-cli": "^4.1.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
